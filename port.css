@@ -1,31 +1,21 @@
 *{
     margin: 0;
     padding:0;
-    box-sizing: inherit;
+    /*box-sizing: inherit;*/
 }
 html{
     box-sizing: border-box;
     font-size: 15px;
 }
 #wrapper{
-    width:100%;
-    height:100vh;
-    display: grid;
-    grid-template-columns: 15% auto;
-    grid-template-rows: auto 80%;
-    grid-template-areas:
-    "sidebar main"
-    "sidebar main"
-    "sidebar footer";
-    grid-column-gap: 1px;
-    grid-row-gap: 1px;
-
+    height:auto;
+    text-align: right;
 }
 #sidebar{
     height: 100%;
     width: 15%;
     grid-area: sidebar;
-    background: linear-gradient(326deg, orange 0%, rgba(164, 80, 139, 0.8) 74%);
+    background: linear-gradient(326deg, rebeccapurple 0%, rgba(164, 80, 139, 0.8) 74%);
     position: fixed;
 }
 nav{
@@ -33,67 +23,55 @@ nav{
 }
 .brand{
     padding: 2.5rem 0;
-    background: linear-gradient(326deg, orange 0%, rgba(164, 80, 139, 0.8) 74%);
+    background: linear-gradient(326deg, rebeccapurple 0%, rgba(164, 80, 139, 0.8) 74%);
 }
 
 .navLink{
     font-size: 1.6rem;
     color: lightblue;
-    padding: 1rem;
+    text-decoration: none;
+
 
 }
 #mainContent{
-    grid-area: main;
-    background: linear-gradient(326deg, orange 0%, rgba(164, 80, 139, 0.8) 74%),
-    url("869.jpg");
+    background: linear-gradient(326deg, rebeccapurple 0%, rgba(164, 80, 139, 0.8) 74%),
+    url("grizz.jpg");
     background-size: cover;
     text-align: center;
     color: lightblue;
+    margin-left: 15%;
 
 
 }
 #footer{
-    grid-area: footer;
-    background: linear-gradient(326deg, orangered 0%, rgba(164, 80, 139, 0.8) 74%);
+    text-align: center;
+    background: linear-gradient(326deg, rebeccapurple 0%, rgba(164, 80, 139, 0.8) 74%);
     padding: 30px;
 }
 #about{
     padding: 3rem;
-    border: 2px solid grey;
-    text-: 55px;
+    gap: 20px
+
 
 }
 #skill{
     padding: 3rem;
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
 }
 #project{
     padding: 3rem;
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
 }
 #education{
     padding: 3rem;
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
 
 }
 #resume{
     padding: 3rem;
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
+}
+#ref{
+    text-align: center;
 }
 
-
-/*PORT-REFLECT.HTML*/
-table{
-    border:3px solid lightblue;
-    width: 80%;
-    position: center;
-}
-td{
-    border: 2px solid black;
-}
-#main1{
-    background: linear-gradient(326deg, orange 0%, rgba(164, 80, 139, 0.8) 74%);
-}
-.font{
-    font-size: 35px;
-}
