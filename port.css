@@ -30,6 +30,7 @@ nav{
     font-size: 1.6rem;
     color: lightblue;
     text-decoration: none;
+    line-height: 5rem;
 
 
 }
@@ -47,31 +48,50 @@ nav{
     text-align: center;
     background: linear-gradient(326deg, rebeccapurple 0%, rgba(164, 80, 139, 0.8) 74%);
     padding: 30px;
+    font-size: 30px;
 }
 #about{
     padding: 3rem;
-    gap: 20px
+    gap: 20px;
+    line-height: 4.6em;
+    font-size: 30px;
+    border-bottom: 4px solid orangered;
+
 
 
 }
 #skill{
     padding: 3rem;
-    /*border: 2px solid grey;*/
+    border-bottom: 4px solid orangered;
+
+
 }
 #project{
     padding: 3rem;
+    border-bottom: 4px solid orangered;
+    font-size: 50px;
+
     /*border: 2px solid grey;*/
 }
 #education{
     padding: 3rem;
-    /*border: 2px solid grey;*/
+    line-height: 5rem;
+    font-size: 30px;
+    border-bottom: 4px solid orangered;
+
 
 }
 #resume{
     padding: 3rem;
-    /*border: 2px solid grey;*/
+    border-bottom: 4px solid orangered;
+
 }
 #ref{
     text-align: center;
 }
 
+#head{
+    height: 400px;
+    font-size: 70px;
+    border-bottom: 4px solid orangered;
+}
